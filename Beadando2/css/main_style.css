@@ -1,0 +1,45 @@
+header {
+    padding: 0.5em; 
+    color: white;
+    background-color: gray;
+    clear: left;
+}
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+div#user {
+    float: right;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0 !important;
+    border-top: 1px solid white;
+    list-style-type: none;
+    background-color: #4b697d;
+}
+a {
+    float: left;
+    text-decoration: none;
+    color: white !important;
+    padding: 0.6em 0.6em;
+    border-right: 1px solid white;
+    text-decoration: none !important;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, white, gray);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+input {
+    width: 20%;
+}
+
+a:hover { background-color:#ff3300} 
+li { display:inline }
