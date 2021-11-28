@@ -13,5 +13,4 @@ class Regisztral_Controller
 		$view->assign("siker", $reg_success);
 	}
 }
-c
 ?>

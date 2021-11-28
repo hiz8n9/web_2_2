@@ -79,10 +79,10 @@ curl_close($ch);
     <h2 style="text-align: center">Módosítás / Beszúrás</h2>
 
     <form style="text-align: center;" method="post">
-    <input style="width: 20%" placeholder="Id" type="text" name="id"><br>
+    <input style="width: 20%" placeholder="Id" type="number" name="id"><br>
     <input style="width: 20%" placeholder="Név" type="text" name="nev" maxlength="45"><br>
     <input style="width: 20%" placeholder="Típus" type="text" name="tipus" maxlength="45"><br>
-    <input style="width: 20%" placeholder="Díjazott" type="text" name="dijazott" maxlength="45"> <br>
+    <input style="width: 20%" placeholder="Díjazott" type="number" name="dijazott" maxlength="45"> <br>
     
     <input type="submit" value = "Küldés">
     </form>
